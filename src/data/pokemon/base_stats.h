@@ -20560,7 +20560,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_BUG,
         .eggGroup2 = EGG_GROUP_WATER_3,
         #ifdef REBALANCED_VERSION
-            .abilities = {ABILITY_EMERGENCY_EXIT, ABILITY_EMERGENCY_EXIT, ABILITY_SHELL_ARMOR},
+            .abilities = {ABILITY_EMERGENCY_EXIT, ABILITY_TOUGH_CLAWS, ABILITY_SHELL_ARMOR},
         #else
             .abilities = {ABILITY_EMERGENCY_EXIT, ABILITY_EMERGENCY_EXIT, ABILITY_EMERGENCY_EXIT},
         #endif
